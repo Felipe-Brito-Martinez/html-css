@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: chocolate;
+    text-align: center;
+}
+#Principal{
+text-align: center;
+background-color: coral;
+color: white;
+}
+h2{
+    color: brown;
+}
+.basico{
+text-align: center;
+color: sienna;
+}
+.intermediario{
+text-align: center;
+color: darkgoldenrod;
+}
+.avancado{
+text-align: center;
+color: gold;
+}
+.destaque{
+    background-color: cadetblue;
+}

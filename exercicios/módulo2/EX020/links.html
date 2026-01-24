@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Social-Media-Icons-Glossy-Social-HTML5.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: gray;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkgreen;
+
+        }
+        a:hover{
+            color: dodgerblue;
+            text-decoration: underline;
+        }
+        a:active{
+            color: chartreuse;
+        }
+        a::after{
+            content:' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: firebrick;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalisando links</h1>
+    <ul>
+        <li><a href="https://www.iplocation.net/" rel="external" target="_blank">IpLocation</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursos/" rel="external" target="_blank">CursoEmVideo</a></li>
+        <li><a href="https://www.emojipedia.com.br/" rel="external" target="_blank">EmojiPedia</a></li>
+    </ul>
+</body>
+</html>
